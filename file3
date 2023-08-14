@@ -1,0 +1,10 @@
+chmod 644  file name - give permission for user read , write and exicute
+chmod -R 655 directory - to change the current directory for subdirectories
+chmod 777  directoryname - to give a full permission for group user other
+chown [OPTIONS] user:group file/directory
+chown john:users myfile.txt
+chown alice:staff mydirectory
+chown -R john:users mydirectory
+chgrp balu nikhil - to change balu group to  nikhil permission. (to cahnge the permission groups only used this command)	
+ll 
+	

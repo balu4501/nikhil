@@ -1,0 +1,24 @@
+tar command:
+=============
+    Create a tar archive: tar -cvf archive.tar file1.txt file2.txt directory
+    Extract files from a tar archive: tar -xvf archive.tar
+
+
+zip and unzip command:
+=======================
+      Create a zip archive: zip archive.zip file1.txt file2.txt directory
+    Extract files from a zip archive: unzip archive.zip
+
+
+gzip and gunzip command
+========================
+
+gzip: The gzip command is used to compress files. It replaces the original file with a compressed version having the .gz extension. For example:
+
+    Compress a file: gzip myfile.txt
+    Compress multiple files: gzip file1.txt file2.txt
+
+gunzip: The gunzip command is used to decompress files compressed with gzip. It restores the original file from its compressed version. For example:
+
+    Decompress a file: gunzip myfile.txt.gz
+    Decompress multiple files: gunzip file1.txt.gz file2.txt.gz

@@ -1,0 +1,33 @@
+hii [C[C[C    Basic commands in linux:
+=====================================================
+1.pwd - present working directory.
+2.touch - to create a empty file.
+3.mkdir - to create a directory.
+4.ls - it will show the files and directories.
+5.cat>file1 - to create a file with in the data.
+6.cat file2 - to show the content of a file2
+7.cat>>file1 - to add a new line in a file1.
+8.cd niki - change niki directory.
+9.rm filename 
+10.rm -f filename - remove a file.
+11.rm -rf - remove a file 		`and directoryin force fully.
+12.rmdir dirname - remove a directory.
+13.ll - to show the content of a file in longlist formatt.
+14.head file name - to show the 1 st 10 lines in a file.
+15.tail filename - to show the last  10 lines in a file.
+16.tac file name - to show the content of a file in reverse formatted.
+17.more file name - to show the content of a file.
+18.less file name - to show the content of a file in on page like a manner.
+19.cd .. - one directory back.
+20.vi .file1 - to create a hidden file.
+21.cat>.file1
+22.ls -a - to show the hidden files.
+23.cat .filename - to show content of a hidden file.
+24.cat>>.file - to added a new lines in a content of a file.
+25.cp file2.txt file3.txt - copy one file to another file.
+26.cp file3.txt /root/balu/nikhil - file3.txt copy to nikhil directory.
+27.cp -r apple balu - copy apple directort to balu directory.
+28.cp -r apple /root/balu/nikhil - copy apple directory to nikhil directory.
+29.mv file2.txt file3.txt - rename and move the file.
+30.mv apple /root/balu/nikhil - move apple directory to destination nikhil ddirectory.
+31.sort - to see the data in the sorted order

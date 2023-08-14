@@ -1,0 +1,31 @@
+1.useradd username - to create a new user.
+2.id username - to check the user name.
+3.userdel username - to delete a user.
+4.groupadd groupname - create a new group.
+5.cat /etc/passwd - to show the user information.
+6.cat /etc/shadow - to show the password information.
+7.cat /etc/group - to show the group information.
+8.passwd username - create password with a user name.
+9.usermod -a -G groupname username - to a group added to a user.
+10.groups username - to show the user add the group.
+11.gpasswd -d username groupname - to delete group to a user.
+12.groupmod -n newgroup oldgroup - change the group name.
+13.usermod -l newuser olduser - change the user name.
+14.cat /proc/cpuinfo - it show the cpu information.
+15.cat /proc/meminfo - it show the memory information.
+16.hostname - name of the system or the hostname assigned to it.
+17.hostname -i - display server ip address.
+18.top -to display all running process for cpu utilization process.
+19.ps - to display the current working process.
+20.ps -a - to display all process.
+21.ps -ef - to display current running process with in a detailed formatted.
+22.uname -a - to display all available information about the system.
+23.uname -r - to display kernal version.
+24.who - display list of user's who are connected to the server.
+25.whoami - display current user information.
+26.logname - display who logged the session.
+27.df -h - it show the disc free in human readable formatte.
+28.du - it show disc usage a memory.
+29.free -h - to show the free memory in human readable formatte.
+30.useradd -e 2023-07-15 username - create a user with account expiry date.
+31.chage - l username - expiry date user into displayed.
