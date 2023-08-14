@@ -1,0 +1,122 @@
+history - to show all the history
+history -c -to clear all history
+cal - calander
+date - date
+time - time
+clear - to clear the screen
+exit - it is used to exited in shall
+sleep 5 - it is used to hold the terminal in a specified amount time in seconds
+kill pid - to stop the service based on the pid 
+kill 1263 - to stop the tomcat server
+grep - it is used to search the contents 
+cat filename | grep user
+cut - it is used to extract the columns of a file 
+cut -d '' -f1 filename.
+sed - it is used to edit the files and o/p's the result
+sed 's/balu/nikhil/g' filename - it doesn't for the original file
+sed -i 's/balu/nikhil/g' filename - it will effect the original file
+sed -n '2p' filename - it will print the second row
+
+learn these cmds by your own and explain me that cmds
+echo - It is used to display text or variables as output.
+syntax :   	
+echo "Hello, World!"
+
+wc - to count the number of words, lines, and characters in a file or the output of a command.
+syntax :
+wc file - Count the number of lines, words, and characters in a file.
+ls -l | wc -l - Count the number of lines in the output of a command.
+wc -w filename - Display the number of words in a file.
+wc -m filename - Count the number of characters in a file.
+
+od - to display the contents of a files in various formats.
+syntax :
+od -b filename - Display a file in octal format.
+od -h filename - Display a file in hexadecimal format.
+od -c filename - Display a file in ASCII format.
+
+zcat - 
+
+ping 
+
+host - 
+uniq - to remove a duplicate and repeated lines in a file and to count a duplicate lines in a file.
+syntax : 
+uniq filename - remove duplicate lines in a file.
+uniq -d filename - display duplicate lines in a file.
+uniq -c filename - to count a duplicate lines in a file.
+
+tr - to translate or delete characters from a file.
+syntax :
+echo "Hello" | tr 'l' 'L' - Replace all occurrences of a character.
+echo "Hello" | tr -d 'l' - delete a specific character.
+echo "Hello" | tr -s 'l' - squeezes consecutive occurrences of the letter 'l' into a single occurrence.
+
+tee - to read from standard input and write to both standard output and files simultaneously. 
+syntax :
+ls -l | tee output.txt - Save the output of a command to a file. This command lists the contents of the current directory using the ls -l command and saves the output to a file named output.txt. The output is also displayed on the terminal.
+echo "New line" | tee -a file.txt - This command appends the string "New line" to an existing file named.
+ls | tee file1.txt file2.txt file3.txt - Save output to multiple files.
+
+comm - to compare two sorted files line by line and display the lines that are common, unique, or exclusive to each file.
+syntax :
+comm file1.txt file2.txt - Find the common lines between two files.
+comm -23 file1.txt file2.txt - Find lines exclusive to the first file.
+comm -13 file1.txt file2.txt - Find lines exclusive to the second file.
+
+more - to view the contents of a file one page at a time.
+syntax :
+more myfile.txt - to view the contents of a file one page at a time.
+
+less - to view the contents of a file or the output of a command in a pager-like manner.
+syntax :
+less myfile.txt - to view the contents of a file or the output of a command in a pager-like manner.
+
+find - to quickly search for files and directories in a system's.
+syntx :
+Find . - find all files and directories in the current directory.
+find . -name "directory name" - Find a file named "directory name" in the current directory.
+	
+		
+locate - to quickly search for files and directories on your system based on their names.
+locate myfile.txt - Search for files with a specific name.
+
+netstat - to display network connection information.
+syntax :
+netstat -a - Display all active network connections.
+netstat -s - Display network statistics for each protocol.
+netstat -r - Show the routing table.
+netstat -l - Show listening ports
+netstat -n - Display network connections using numerical addresses.
+netstat -tuln - to display the current active network connections and listening ports on a Unix-like operating system.
+
+vmstat - to display information about system memory, processes, paging, block I/O, CPU utilization, and virtual memory statistics.
+syntax :
+vmstat - Display overall system statistics.
+vmstat 2 5 - Monitor memory and CPU utilization every 2 seconds, for a total of 5 updates.
+vmstat -d - Display disk I/O statistics.
+vmstat -s -S M - Show memory statistics in megabytes.
+
+nano  - a text editor that provides a simple and intuitive interface for creating and editing text files.
+syntax :
+nano filename
+
+what is env variables - dynamic values that can affect the behavior of processes and programs running on the system.
+syntax :
+
+awk - to manipulate and analyze data files based on specified patterns or field/column patterns.
+syntax :
+awk '{print}' file1 - to print a file.
+awk '{print$2}' file1 - to print second column.
+free -m - to prinyt a memory.
+free -m | awk '/Mem/{print}' - to print a memory 
+free -m | awk '/Mem/{print$1,$2}' - to print a memory in column 1 nd 2.
+
+sar - to collect, report, and analyze system activity information.
+syntx :
+sar -u - Display CPU utilization statistics.
+sar -r - Display memory utilization statistics.
+sar -b - Display I/O and transfer rate statistics.
+
+
+
